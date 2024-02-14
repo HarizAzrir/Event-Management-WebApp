@@ -1,7 +1,7 @@
 STEPS ON HOW TO RUN THE PROJECT
 1) Extract the files from the zip folder
 2) open CMD with the project path
-3) Type composer install in the CMD
+3) Type "composer install" in the CMD
 4) Then open the project inside VSCODE and open the .ENV file
 5) change the Database name to preferred
 6) on XAMPP create a new database with the same name

@@ -1,0 +1,11 @@
+STEPS ON HOW TO RUN THE PROJECT
+1) Extract the files from the zip folder
+2) open CMD with the project path
+3) Type composer install in the CMD
+4) Then open the project inside VSCODE and open the .ENV file
+5) change the Database name to preferred
+6) on XAMPP create a new database with the same name
+7) go to the CMD and type "php artisan migrate" to import the tables to your local machine
+8) Generate API Key. Type in php artisan key:generate. Then paste the new api into the .ENV File
+9) Link Storage to local machine. Type in "php artisan storage:link"
+10) Lastly. "php artisan serve"
